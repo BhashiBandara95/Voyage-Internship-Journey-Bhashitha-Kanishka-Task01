@@ -23,11 +23,6 @@ function App() {
 	// create array
 	const arr = ["Apple", "Grapes", "Oranges"];
 
-	// create object
-	const pObj = {
-		name: "John",
-		age: 15,
-	};
 	return (
 		<>
 			<div className="cont">
@@ -36,20 +31,26 @@ function App() {
 					Full name: {firstName} {middleName} {surName}
 				</p>
 				<p> Full Name function : {getFullname("Nike", "Steve", "Jobs")} </p>
-				<p>Age : {pObj.age}</p>
+				<p>Age : {age}</p>
 				<p>Country :{country}</p>
 				<p>
 					{" "}
 					{firstName} likes to eat {arr[0]}
 				</p>
 				<p>Frontend languages: {lang} </p>
-				<p>
-					{" "}
-					{pObj.name} is {pObj.age} years old.
-				</p>
 			</div>
 		</>
 	);
 }
 
 export default App;
+
+/*
+<ul> 
+<li> <HTML> </li>
+<li> <CSS> </li>
+<li> <JS> </li>
+<li> <React> </li>
+</ul>
+
+*/
