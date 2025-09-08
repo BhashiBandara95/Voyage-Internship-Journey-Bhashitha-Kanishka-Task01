@@ -1,3 +1,5 @@
+/* --- App.jsx --- */
+
 function App() {
 	// create a variable
 	const a = 30;

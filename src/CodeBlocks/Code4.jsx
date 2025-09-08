@@ -1,4 +1,6 @@
 function App() {
+	/* --- App.jsx --- */
+
 	// create variables
 	const firstName = "Bhashitha";
 	const middleName = "Kanishka";
