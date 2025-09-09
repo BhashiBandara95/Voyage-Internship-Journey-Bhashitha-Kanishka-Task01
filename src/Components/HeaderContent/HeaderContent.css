@@ -1,4 +1,7 @@
-#headercontent {
-	min-height: 20vh;
-	background-color: #2dffd6;
+#navcontent {
+	min-height: 12vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
 }

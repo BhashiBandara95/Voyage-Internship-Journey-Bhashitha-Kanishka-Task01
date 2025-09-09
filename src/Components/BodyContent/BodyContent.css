@@ -1,4 +1,4 @@
-#bodycontent {
-	min-height: 60vh;
-	background-color: #d2ebe4;
+.content {
+	color: blue;
+	margin-bottom: 3em;
 }
